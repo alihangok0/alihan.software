@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/tech3-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.container .box{
+    max-width: 400px!important;
+}
+.container .box h1 , h5 , p , ul , li{
+    max-width: 450px!important;
+    max-height: 200px!important;
+    position: sticky!important;
+}
+
+.container .box li a{
+    max-width: 25px!important;
+    font-size: 43px!important;
+    margin: 24px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    border: 2px solid white;
+    background: #333333;
+    max-width: 19%;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    color: #c5d19a;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img{
+    width: 280px;
+    border-radius: 26%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box img:hover{
+    transform: scale(0.9);
+}
+
+.box h1{
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.box h5{
+    font-size: 30px;
+    font-weight: 90;
+    margin: unset;
+    letter-spacing: 3px;
+}
+
+.box p{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: -10px;
+    list-style: none;
+}
+
+.box li a{
+    color: #c5d19a;
+    font-size: 43px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: all ease 250ms;
+}
+
+.box li a:hover{
+    color: #bf7559;
+}
