@@ -6,6 +6,7 @@ html, body {
     background-image: url("../assets/images/tech3-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 *{
